@@ -7,38 +7,153 @@
 
     <style>
       form {
-        background-color: azure;
-        box-shadow: 0 0 10px rgba(167, 71, 71, 1);
+        margin-top: 200px;
+        margin-inline: auto;
+        background-color: rgb(133, 255, 255);
+        box-shadow: 0 0 10px rgb(0, 0, 0);
+        border-radius: 10px;
+        padding: 40px;
+        width: 30%;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 60px;
+        text-decoration: underline;
+      }
+
+      .gambar {
+        width: 50%;
+      }
+
+      .penyesuaian {
+        text-align: center;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="number"],
+      select,
+      textarea {
+        width: 100%;
+      }
+
+      textarea {
+        resize: none;
+      }
+
+      label {
+        margin-bottom: 10px;
+      }
+
+      input[type="submit"] {
+        font-size: 20px;
+        width: 100%;
+        background-color: rgb(255, 172, 172);
+        border: none;
+        border-radius: 10px;
+        margin-top: 10px;
         padding: 10px;
-        width: 500px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: rgb(255, 0, 0);
+      }
+
+      input[type="radio"],
+      input[type="checkbox"] {
+        margin-bottom: 10px;
+      }
+
+      .Nama {
+        color: rgb(0, 132, 255);
+      }
+
+      .Email {
+        color: rgb(73, 146, 0);
+      }
+
+      .Nomor {
+        color: darkorange;
+      }
+
+      .Alasan {
+        color: red;
       }
     </style>
   </head>
   <body>
+    <div class="penyesuaian">
+      <img class="gambar" src="GPXZxGvawAAwfpD.jpeg" alt="" />
+    </div>
     <h2>Formulir Pendaftaran OSIS</h2>
 
     <form action="Latihan_1.html" method="post">
-      <label for="nama">Masukkan Nama : </label>
+      <label class="Nama" for="nama">Masukkan Nama : </label>
       <input type="text" name="nama" id="nama" />
 
       <br />
 
-      <label for="email">Masukkan Email : </label>
+      <label for="makanbang">Makanan Favorit : </label>
+
+      <input
+        type="checkbox"
+        name="makanbang"
+        id="nasreng"
+        value="Nasi Goreng"
+      />
+      <label for="nasreng">Nasi Goreng</label>
+
+      <input
+        type="checkbox"
+        name="makanbang"
+        id="basgor"
+        value="Bakso Goreng"
+      />
+      <label for="basgor">Bakso Goreng</label>
+
+      <input type="checkbox" name="makanbang" id="ayagep" value="Ayam Geprek" />
+      <label for="ayagep">Chicken SmackDown</label>
+
+      <br />
+
+      <label for="kelamin">Jenis Kelamin : </label>
+
+      <input type="radio" name="kelamin" id="laki-laki" value="Laki-Laki" />
+      <label for="laki-laki">Laki-Laki</label>
+
+      <input type="radio" name="kelamin" id="perempuan" value="Perempuan" />
+      <label for="perempuan">Perempuan</label>
+
+      <br />
+
+      <label class="Email" for="email">Masukkan Email : </label>
       <input type="email" name="email" id="email" />
 
       <br />
 
-      <label for="nomor">Masukkan No.Hp : </label>
+      <label class="Nomor" for="nomor">Masukkan No.Hp : </label>
       <input type="number" name="nomor" id="nomor" />
 
       <br />
 
-      <label for="alasan">Alasan Masuk : </label>
+      <label for="hobby">Hobby : </label>
+      <select name="hobby" id="hobby">
+        <option value="Membaca">Membaca Buku</option>
+        <option value="Mancing">Mancing semester 5</option>
+        <option value="Jogging">Jogging 100KM</option>
+        <option value="Camping">Camping Di bawah laut</option>
+      </select>
+
+      <br />
+
+      <label class="Alasan" for="alasan">Alasan Masuk : </label>
       <input type="text" name="alasan" id="alasan" />
 
       <br />
 
-      <label for="alamat">Masukkan Alamat : </label>
+      <label class="Alamat" for="alamat">Masukkan Alamat : </label>
       <textarea name="alamat" id="alamat"></textarea>
 
       <br />
