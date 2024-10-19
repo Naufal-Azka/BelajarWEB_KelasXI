@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto",sans-serif;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.popup{
+    position: fixed;
+    top: 100vh;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: top 0ms ease-in-out 300ms;
+}
+.popup .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition:opacity 100ms ease-in-out 200ms;
+}
+.popup .popup--content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1.15);
+    width: 90%;
+    height: 85%;
+    /* max-width: 350px; */
+    background: white;
+    padding: 20px;
+    /* border-radius: 25px; */
+    opacity: 1;
+    box-shadow: 0px 2px 2px 5px rgba(0, 0, 0, 0.05);
+    transition: all 300ms ease-in-out;
+}
+.popup .popup--content h1{
+    font-weight: 100;
+    cursor: pointer;
+    color: #111;
+}
+.popup .popup--content h2{
+    margin: 10px 0px;
+    font-size: 25px;
+    color: #111;
+    text-align: center;
+}
+.popup .popup--content p{
+    margin: 15px 0px;
+    color: #222;
+    font-size: 16px;
+    text-align: center;   
+}
+.popup .popup--content img{
+    width: 24.5vw;
+}
+
+
+.popup.active{
+    top: 0px;
+    transition: top 0ms ease-in-out 0ms;
+}
+.popup.active .overlay{
+    opacity: 1;
+    transition: all 300ms ease-in-out;
+}
+.popup.active .popup--content{
+    transform: translate(-50%,-50%) scale(1);
+}
+
+
+
+.card--img{
+    border: 1px solid red;
+    margin-inline: 2vw;
+    width: 25vw;
+}
+.container--flex--column{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+}
+.container--flex--row{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid green; */
+}
+.table--ship{
+    gap: 3vh;
+}
+.header{
+    background-color: lightgray;
+}
+.headerid{
+    background: linear-gradient(120deg, #fbffca, #baffbf, #a7efff, #ffabff);
+}
+.table--ship table{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    width: 50vw;
+    margin-inline: 3.5vw;
+}
+.table--name table{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    padding: 4px;
+}
+
+
+
+
+
+
+/* NGGAK DIPAKE */
+.popup .popup--content .control{
+    display: flex;
+    justify-content: right;
+    /* margin: 20px 0 0; */
+}
+/* .popup .popup--content .control button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.popup .popup--content .control .close--btn{
+    background: transparent;
+    color: #3284ed;
+}
+.popup .popup--content .control .submit--btn{
+    background: #3284ed;
+    color: white;
+} */

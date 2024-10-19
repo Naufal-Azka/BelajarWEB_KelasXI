@@ -1,0 +1,323 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+}
+html:focus-within, body{
+    /* scroll-behavior: smooth !important; */
+    background-color: lightgray;
+}
+h1{
+    font-size: 40px;
+}
+h4{
+    margin-top: 5px;
+    font-weight: 800;
+}
+p{
+    font-size: 20px;
+}
+nav{
+    width: 100%;
+    height: 100px, auto;
+    /* padding: 30px; */
+    overflow: hidden;
+    z-index: 1;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur( 5px );
+    position: fixed;
+    
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    float: right;
+    padding-inline: 60px;
+}
+nav li{
+    padding-inline: 30px;
+}
+form{
+    padding-inline: 40px;
+}
+input, textarea{
+    resize: none;
+    width: 870Px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    margin-block: 5px;
+    padding-inline: 10px;
+    box-shadow: 0 3px 5px rgb(0, 0, 0);
+
+}
+label{
+    font-size: 18px;
+}
+button{
+    width: 15%;
+    /* border: none; */
+    background-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    float: right;
+    box-shadow: 0 3px 5px rgb(0, 0, 0);
+    font-weight: 600;
+}
+.a{
+    padding-inline: 30px;
+}
+
+/* #bg{
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-block: -10px;
+} */
+#home{
+    background-image: url('src/bgs/Bg_2023.01.18_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+}
+#shiplist{
+    scroll-margin-top: 50px;
+    scroll-behavior: smooth;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#commentlist{
+    background-color: white;
+    margin-inline: 135px;
+    text-decoration: none;
+    padding-bottom: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container{
+    background-color: white;
+    margin-inline: 135px;
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+.container h1{
+    text-align: center;
+}
+
+.icon--home img{
+    width: 10px;
+    height: 10px;
+}
+.container--para{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur( 5px );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.container--para p{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.container--list{
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container--list ul{
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+}
+.container--list li{
+    margin-inline: 10px;
+}
+.container--split{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 1.5rem;
+}
+
+.class--list a{
+    font-size: 20px;
+}
+
+
+
+.ship--list{
+    display: flex;
+    margin-inline: 65px;
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.ship--list img{
+    border-radius: 5px;
+    /* width: 70%; */
+}
+.ship--card{
+    width: 100%;
+}
+
+
+
+.card:hover{
+    transform: scale(1.25);
+}
+.card{
+    transition: .5s;
+    margin-inline: 10px;
+    width: 130px;
+}
+.card--img {
+    background: linear-gradient(120deg, #fbffca, #baffbf, #a7efff, #ffabff);
+    border-radius: 10px;
+    padding-top: 7px;
+}
+.card--title{
+    font-size: 14px;
+}
+
+
+
+.judul{
+    padding-top: 70px;
+    scroll-margin-top: 50px;
+}
+.judul--type{
+    scroll-margin-top: 50px;
+    padding-top: 70px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+#commentlist{
+    margin-top: 150px
+}
+#comment--list div {
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0 3px 5px rgb(0, 0, 0);
+    /* border-radius: 10px; */
+    padding: 20px;
+    margin-block: 40px;
+    margin-inline: 10px;
+    background: linear-gradient(120deg, #fbffca, #baffbf, #a7efff, #ffabff);
+}
+.comment--submition{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    padding-block: 20px;
+}
+
+
+.popup {
+    position: fixed;
+    top: 100vh;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: top 0ms ease-in-out 300ms;
+}
+.popup .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 100ms ease-in-out 200ms;
+}
+.popup .popup--content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.15);
+    width: 95%;
+    max-width: 350px;
+    background: white;
+    padding: 25px;
+    border-radius: 25px;
+    opacity: 1;
+    box-shadow: 0px 2px 2px 5px rgba(0, 0, 0, 0.05);
+    transition: all 300ms ease-in-out;
+}
+.popup .popup--content h2 {
+    margin: 10px 0px;
+    font-size: 25px;
+    color: #111;
+    text-align: center;
+}
+.popup .popup--content p {
+    margin: 15px 0px;
+    color: #222;
+    font-size: 16px;
+    text-align: center;
+}
+.popup .popup--content .control {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0;
+}
+.popup .popup--content .control button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.popup .popup--content .control .close--btn {
+    background: transparent;
+    color: #3284ed;
+}
+.popup .popup--content .control .submit--btn {
+    background: #3284ed;
+    color: white;
+}
+
+.popup.active {
+    top: 0px;
+    transition: top 0ms ease-in-out 0ms;
+}
+.popup.active .overlay {
+    opacity: 1;
+    transition: all 300ms ease-in-out;
+}
+.popup.active .popup--content {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+
+
+
+

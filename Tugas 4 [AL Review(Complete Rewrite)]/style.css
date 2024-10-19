@@ -1,0 +1,201 @@
+/* JUSTIFY ALL ELEMENT */
+*{
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+
+    /* FONT */
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    /* FONT */
+
+    scroll-margin-top: 12vh;
+}
+/* JUSTIFY ALL ELEMENT */
+
+
+/* PRE-WRITE CLASS */
+.container--flex--row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container--flex--column{
+    display: flex;
+    flex-direction: column;
+}
+.justify--content--align--items--center{
+    justify-content: center;
+    align-items: center;
+}
+.float--right{
+    float: right;
+}
+.float--left{
+    float: left;
+}
+/* PRE-WRITE CLASS */
+
+
+/* STYLE FOR ALL ELEMENT */
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+/* STYLE FOR ALL ELEMENT */
+
+
+/* NAVIGATION BAR */
+.navbar{
+    width: 100%;
+    height: auto;
+    padding-inline: 4vw;
+    padding-block: 3.5vh;
+    position: fixed;
+    overflow: hidden;
+    z-index: 2;
+    
+    background-color: rgba(255, 255, 255, 0.375);
+    backdrop-filter: blur( 5px );
+    font-size: 18px;
+}
+.navbar .navbar--list{
+    height: 4.5vh;
+    align-items: center;
+}
+.navbar .navbar--list .navbar--list--content{
+    padding-inline: 15px;
+}
+/* NAVIGATION BAR */
+
+
+/* HOME SECTION*/
+#home{
+    background-image: url("src/bgs/bg0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    transition: background-image 2s;
+}
+.home .home--container .home--container--text{
+    padding: 20px;
+    border-radius: 1px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur( 5px );
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: left;
+}
+
+.home .home--container .home--container--text .text--h1{
+    padding-bottom: 2vh;
+    padding-left: 1vh;
+    font-weight: 200;
+    font-size: 30px;
+}
+.home .home--container .home--container--text .text--para{
+    padding-top: 3vh;
+    padding-left: 1vh;
+    font-weight: 200;
+    font-size: 20px;
+}
+/* HOME SECTION*/
+
+
+/* SPLITTER SECTION */
+.split .split--container{
+    width: 100%;
+    height: 4vh;
+    background-color: black;
+}
+.split .split--container .text--para{
+    padding-left: 1vw;
+    font-weight: 400;
+    color: white;
+}
+/* SPLITTER SECTION */
+
+
+/* SHIPLIST SECTION*/
+.shiplist{
+    /* background-color: lightgray; */
+    background-image: url("src/misc/star_level_bg_1.png");
+    background-size: cover;
+    background-repeat: repeat;
+
+    padding-bottom: 20vh;
+}
+.shiplist .shiplist--container{
+    background-color: white;
+    margin-inline: 8.8vw;
+    border-bottom-left-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    height: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.shiplist .shiplist--container .shiplist--container--title{
+    text-align: center;
+}
+.shiplist .shiplist--container .shiplist--container--list .shiplist--container--list--class{
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.shiplist .shiplist--container .shiplist--container--list .shiplist--container--list--class li{
+    background-color: rgb(0, 0, 0);
+    padding: 13px;
+    border-radius: 30px;
+}
+.shiplist .shiplist--container .shiplist--container--list .shiplist--container--list--class a{
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+}
+.shiplist--container--ship{
+    column-gap: 3rem;
+    row-gap: 1.5rem;
+    justify-content: center;
+}
+.shiplist .shiplist--container .shiplist--container--ship .shiplist--container--ship--card{
+    transition: .5s;
+}
+.shiplist .shiplist--container .shiplist--container--ship .shiplist--container--ship--card .shiplist--container--ship--card--title{
+    text-align: center;
+    max-width: 124px;
+}
+.shiplist .shiplist--container .shiplist--container--ship .shiplist--container--ship--card .shiplist--container--ship--card--img{
+    background: linear-gradient(120deg, #fbffca, #baffbf, #a7efff, #ffabff);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    padding: 4px;
+    max-height: 124px;
+}
+.shiplist .shiplist--container .shiplist--container--ship .shiplist--container--ship--card:hover{
+    transform: scale(1.2);
+    transition: .5s;
+    background-color: rgba(200, 200, 200, 0.4);
+    backdrop-filter: blur(5px);
+    border-bottom-right-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+}
+/* SHIPLIST SECTION*/
+
+
+/* DISCUSSION SECTION */
+.discussionlist--container{
+}
+/* DISCUSSION SECTION */
+
+
+/* MODAL BOX */
+/* MODAL BOX */
