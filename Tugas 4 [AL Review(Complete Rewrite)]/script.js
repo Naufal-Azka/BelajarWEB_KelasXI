@@ -143,6 +143,45 @@ function createCardDD() {
 createCardDD();
 
 
+//ADD DISCUSSION
+function addDiscussion() {
+    let name = document.getElementById("name--value").value.trim();
+    let discussion = document.getElementById("comment--value").value.trim();
+
+    if (name === "" || discussion === "") {
+        alert("Please fill the empty field");
+        return
+    }
+
+    const discussionListPost = document.getElementById("discussion--container--list--post");
+    const divList = document.createElement("div");
+    discussionListPost.append(divList);
+
+
+    const divCard = document.createElement('div');
+    divCard.className = "container--flex--row"
+
+    const profilePhoto = document.createElement("img");
+    profilePhoto.src = ('src/misc/shipyard.png');
+
+    const discussionName = document.createElement("h2");
+    discussionName.textContent = name;
+    divCard.append(profilePhoto);
+    divCard.append(discussionName);
+
+    const discussionValue = document.createElement("h3");
+    discussionValue.textContent = discussion;
+
+    const lineBreak = document.createElement("hr");
+
+    divList.append(divCard);
+    divList.append(discussionValue);
+    divList.append(lineBreak);
+    document.getElementById("name--value").value = "";
+    document.getElementById("comment--value").value = "";
+}
+
+
 // CHANGE BACKGROUNDS
 let bgIMG = [];
 const bgHome = document.getElementById("home");

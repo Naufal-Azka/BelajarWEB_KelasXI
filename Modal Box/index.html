@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="center">
+      <button id="open--modal">Open</button>
+    </div>
+
+    <div class="modal" id="modal">
+      <div class="modal--overlay"></div>
+      <div class="modal--container">
+        <div class="modal--container--control">
+          <h1 class="close--modal">X</h1>
+        </div>
+        <div class="container--flex--row">
+          <div class="container--flex--column">
+            <div class="card">
+              <img src="Plymouth.png" alt="" />
+            </div>
+            <div class="table--ship--desc">
+              <table border="1">
+                <tbody>
+                  <tr>
+                    <th colspan="2">Ship Indetity</th>
+                  </tr>
+                  <tr>
+                    <th>Name</th>
+                    <th>Friedrich der Große</th>
+                  </tr>
+                  <tr>
+                    <th>Faction</th>
+                    <th>Northern Parliament</th>
+                  </tr>
+                  <tr>
+                    <th>Rarity</th>
+                    <th>DR ★★★★★★</th>
+                  </tr>
+                  <tr>
+                    <th>Classification</th>
+                    <th>Aviation Battleship</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div>
+            <div class="table--ship--stat">
+              <table border="1">
+                <tbody>
+                  <tr>
+                    <th class="stats">-</th>
+                    <th class="hp">Health</th>
+                    <th class="fp">Firepower</th>
+                    <th class="trp">Torpedo</th>
+                    <th class="avi">Aviation</th>
+                    <th class="aa">Anti Air</th>
+                    <th class="eva">Evasion</th>
+                    <th class="at">Armor Type</th>
+                  </tr>
+                  <tr>
+                    <th class="stats">Base</th>
+                    <th class="hp">10000</th>
+                    <th class="fp">100</th>
+                    <th class="trp">100</th>
+                    <th class="avi">100</th>
+                    <th class="aa">100</th>
+                    <th class="eva">100</th>
+                    <th class="at" rowspan="4">Medium</th>
+                  </tr>
+                  <tr>
+                    <th class="stats">Level 100</th>
+                    <th class="hp">10000</th>
+                    <th class="fp">100</th>
+                    <th class="trp">100</th>
+                    <th class="avi">100</th>
+                    <th class="aa">100</th>
+                    <th class="eva">100</th>
+                  </tr>
+                  <tr>
+                    <th class="stats">Level 120</th>
+                    <th class="hp">10000</th>
+                    <th class="fp">100</th>
+                    <th class="trp">100</th>
+                    <th class="avi">100</th>
+                    <th class="aa">100</th>
+                    <th class="eva">100</th>
+                  </tr>
+                  <tr>
+                    <th class="stats">Level 125</th>
+                    <th class="hp">10000</th>
+                    <th class="fp">100</th>
+                    <th class="trp">100</th>
+                    <th class="avi">100</th>
+                    <th class="aa">100</th>
+                    <th class="eva">100</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table--ship--equippable">
+              <table border="1">
+                <tbody>
+                  <tr>
+                    <th class="gear" colspan="4">Equippable</th>
+                  </tr>
+                  <tr>
+                    <th class="slot">Slots</th>
+                    <th class="eff">Efficiency</th>
+                    <th class="equip">Equippable</th>
+                    <th class="max">Max #</th>
+                  </tr>
+                  <tr>
+                    <th class="slot">1</th>
+                    <th class="eff">100% -> 100%</th>
+                    <th class="equip">BB Main Gun</th>
+                    <th class="max">1 -> 1</th>
+                  </tr>
+                  <tr>
+                    <th class="slot">2</th>
+                    <th class="eff">100% -> 100%</th>
+                    <th class="equip">BB Main Gun</th>
+                    <th class="max">1 -> 1</th>
+                  </tr>
+                  <tr>
+                    <th class="slot">3</th>
+                    <th class="eff">100% -> 100%</th>
+                    <th class="equip">BB Main Gun</th>
+                    <th class="max">1 -> 1</th>
+                  </tr>
+                  <tr>
+                    <th class="slot">Augment</th>
+                    <th class="eff">N/A</th>
+                    <th class="equip">Hammer, Dual Sword</th>
+                    <th class="max">1 -> 1</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table--ship--skill">
+              <table border="1">
+                <tbody>
+                  <tr>
+                    <th colspan="5">Skills</th>
+                  </tr>
+                  <tr>
+                    <th class="skill" rowspan="2">Dreamwaker's Bow</th>
+                    <th class="skill" rowspan="2">Hope's Tempest</th>
+                    <th class="skill" rowspan="2">Protector of the New Moon</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>

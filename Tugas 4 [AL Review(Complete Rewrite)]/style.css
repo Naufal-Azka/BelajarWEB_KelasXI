@@ -51,6 +51,32 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
+input, textarea{
+    resize: none;
+    border: 1px solid gray;
+    width: 50vw;
+
+    padding: 0.2rem;
+    font-weight: 600;
+    font-size: 14px;
+}
+button{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 0.3rem;
+    margin-top: 2vh;
+
+    width: 8vw;
+    font-size: 15px;
+}
+form{
+    padding-bottom: 4vh;
+    font-size: 18px;
+}
+hr{
+    margin-top: 1vh;
+    width: 65%;
+}
 /* STYLE FOR ALL ELEMENT */
 
 
@@ -133,13 +159,14 @@ a{
     /* background-color: lightgray; */
     background-image: url("src/misc/star_level_bg_1.png");
     background-size: cover;
-    background-repeat: repeat;
+    background-repeat: repeat-y;
 
     padding-bottom: 20vh;
 }
 .shiplist .shiplist--container{
     background-color: white;
     margin-inline: 8.8vw;
+    padding-bottom: 8.8vh;
     border-bottom-left-radius: 0.2rem;
     border-bottom-right-radius: 0.2rem;
     height: auto;
@@ -147,6 +174,7 @@ a{
 }
 .shiplist .shiplist--container .shiplist--container--title{
     text-align: center;
+    padding-block: 5vh;
 }
 .shiplist .shiplist--container .shiplist--container--list .shiplist--container--list--class{
     gap: 1rem;
@@ -163,7 +191,12 @@ a{
     font-weight: 100;
     font-size: 15px;
 }
-.shiplist--container--ship{
+.shiplist .shiplist--container .shiplist--container--class--title{
+    text-align: center;
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+}
+.shiplist .shiplist--container .shiplist--container--ship{
     column-gap: 3rem;
     row-gap: 1.5rem;
     justify-content: center;
@@ -192,7 +225,25 @@ a{
 
 
 /* DISCUSSION SECTION */
-.discussionlist--container{
+.discussion{
+    height: auto;
+    width: 100%;
+    padding-block: 10vh;
+    padding-inline: 10vw;
+}
+.discussion .discussion--container .discussion--container--form .discussion--container--form--post .label--title{
+    margin-top: 4vh;
+}
+.discussion .discussion--container .discussion--container--list--title{
+    margin-top: 4vh;
+}
+.discussion .discussion--container .discussion--container--list--post div{
+    margin-top: 1rem;
+}
+.discussion .discussion--container .discussion--container--list--post img{
+    width: 3rem;
+    margin: 0 0.6rem 0.2rem 0;
+    border: 2px solid black;
 }
 /* DISCUSSION SECTION */
 

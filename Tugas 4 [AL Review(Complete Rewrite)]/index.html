@@ -6,6 +6,9 @@
     <!-- TITLE WEBSITE -->
     <title>Aku's Ships Review</title>
 
+    <!-- ICON -->
+    <link rel="shortcut icon" href="src/misc/icon.ico" type="image/x-icon" />
+
     <!-- CSS LINK -->
     <link rel="stylesheet" href="style.css" />
 
@@ -85,24 +88,36 @@
             </ul>
           </div>
           <div class="shiplist--container--class--title">
-            <h1 class="text--h1" id="mainBB">BB</h1>
+            <h3 class="text--h3" id="mainBB">BB/BC/BBV/BM/IXm</h3>
           </div>
           <div
             class="shiplist--container--ship container--flex--row"
             id="shipBB"
           ></div>
+          <div class="shiplist--container--class--title">
+            <h3 class="text--h3" id="mainCV">CV/CVL</h3>
+          </div>
           <div
             class="shiplist--container--ship container--flex--row"
             id="shipCV"
           ></div>
+          <div class="shiplist--container--class--title">
+            <h3 class="text--h3" id="vanguardCA">CA-CB</h3>
+          </div>
           <div
             class="shiplist--container--ship container--flex--row"
             id="shipCA"
           ></div>
+          <div class="shiplist--container--class--title">
+            <h3 class="text--h3" id="vanguardCL">CL</h3>
+          </div>
           <div
             class="shiplist--container--ship container--flex--row"
             id="shipCL"
           ></div>
+          <div class="shiplist--container--class--title">
+            <h3 class="text--h3" id="vanguardDD">DD/DDG</h3>
+          </div>
           <div
             class="shiplist--container--ship container--flex--row"
             id="shipDD"
@@ -112,10 +127,50 @@
       <!-- SHiPS LIST SECTION-->
 
       <!-- DISCUSSION SECTION -->
-      <section class="discussionlist" id="discussionlist">
-        <div class="discussionlist--container">
-          <div class="discussion--container--title">
+      <section class="discussion" id="discussion">
+        <div class="discussion--container">
+          <div class="discussion--container--title container--flex--row">
+            <img src="src/misc/discussionSection.svg" alt="" />
             <h1 class="text--h1">Discussion</h1>
+          </div>
+          <div class="discussion--container--form">
+            <form action="" class="discussion--container--form--post">
+              <div class="label--title">
+                <label for="name--value">Name : </label>
+              </div>
+              <div class="text--field">
+                <input
+                  type="text"
+                  name="name--value"
+                  id="name--value"
+                  required
+                />
+              </div>
+              <div class="label--title">
+                <label for="comment--value">Comment : </label>
+              </div>
+              <div class="text--area--field">
+                <textarea
+                  rows="3"
+                  name="comment--value"
+                  id="comment--value"
+                  required
+                ></textarea>
+              </div>
+              <div class="submit--btn">
+                <button type="button" onclick="addDiscussion()">Submit</button>
+              </div>
+            </form>
+          </div>
+          <div class="discussion--container--list--title container--flex--row">
+            <img src="src/misc/discussionComment.svg" alt="" />
+            <h1 class="text--h1">Discuss your oppinion</h1>
+          </div>
+          <div
+            class="discussion--container--list--post"
+            id="discussion--container--list--post"
+          >
+            <!-- YEAGGGGG -->
           </div>
         </div>
       </section>
