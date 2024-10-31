@@ -1,0 +1,55 @@
+*{
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 0px;
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+input{
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(0, 180, 180);
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+button:hover{
+    background-color: rgb(0, 255, 255);
+    color: black;
+}
+
+uL{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+li:last-child{
+    border-bottom: none;
+}

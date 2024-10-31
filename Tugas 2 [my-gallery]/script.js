@@ -50,6 +50,8 @@ lightboxContainer.id = "lightbox";
 
 document.body.appendChild(lightboxContainer);
 
+const navBar = document.getElementById("navbar");
+
 function openLightbox(index){
     images = document.querySelectorAll(".gallery .container .container--card img");
 
@@ -68,12 +70,14 @@ function openLightbox(index){
     lightboxContainer.innerHTML = '';
     lightboxContainer.appendChild(lightboxContent);
     lightboxContainer.style.display = 'flex'
+    navBar.style.display = 'none';
 
     currentSlideIndex = index;
 }
 
 function closeLightbox() {
     lightboxContainer.style.display = "none";
+    navBar.style.display = '';
 }
 
 function changeSlide(n) {
