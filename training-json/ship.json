@@ -1,197 +1,810 @@
 [
     {
-        "id": "1",
+        "rarity": "Ultra Rare ★★★★★★",
+        "rarity": "Decisive ★★★★★★",
+        "nationality": "Eagle Union",
+        "nationality": "Sakura Empire",
+        "nationality": "Iron Blood",
+        "nationality": "Royal Navy",
+        "nationality": "Northern Parliament",
+        "nationality": "Iris Libre",
+        "nationality": "Vichya Dominion",
+        "nationality": "Sardegna Empire",
+        "type": "Battleship",
+        "type": "Aviation Battleship",
+        "type": "Aircraft Carrier",
+        "type": "Light Cruiser",
+        "type": "Heavy Cruiser",
+        "type": "Large Cruiser",
+        "type": "Destroyer",
+        "armor": "Light",
+        "armor": "Medium",
+        "armor": "Heavy"
+    },
+    {
+        "stat": {
+            "base": {
+                "health": ,
+                "firepower": ,
+                "torpedo": ,
+                "aviation": ,
+                "anti_air": ,
+                "evasion":
+            },
+            "level_100": {
+                "health": ,
+                "firepower": ,
+                "torpedo": ,
+                "aviation": ,
+                "anti_air": ,
+                "evasion":
+            },
+            "level_120": {
+                "health": ,
+                "firepower": ,
+                "torpedo": ,
+                "aviation": ,
+                "anti_air": ,
+                "evasion":
+            },
+            "level_125": {
+                "health": ,
+                "firepower": ,
+                "torpedo": ,
+                "aviation": ,
+                "anti_air": ,
+                "evasion":
+            }
+        },
+        "equipment": {
+            "slot_1": {
+                "efficiency": ,
+                "equiabble": ,
+                "max":
+            },
+            "slot_2": {
+                "efficiency": ,
+                "equiabble": ,
+                "max":
+            },
+            "slot_3": {
+                "efficiency": ,
+                "equiabble": ,
+                "max":
+            },
+            "augment": {
+                "efficiency": "N/A",
+                "equiabble": ,
+                "max": 1
+            }
+        }
+    },
+    {
+        "id": 1,
         "name": "San Diego",
         "rarity": "Ultra Rare ★★★★★★",
         "nationality": "Eagle Union",
-        "class": "Light Cruiser",
-        "armor": "light",
-        "stat": {},
-        "equipment": {}
-    },
-    {
-        "id": "5",
-        "name": "Drake",
-        "rarity": "Decisive ★★★★★★",
-        "nationality": "Roval Navy",
-        "class": "Light Cruiser",
-        "armor": "Medium",
+        "type": "Light Cruiser",
+        "armor": "Light",
         "stat": {
             "base": {
-                "health": "",
-                "firepower": "",
-                "torpedo": "",
-                "aviation": "",
-                "anti_air": "",
-                "evasion": ""
+                "health": 646,
+                "firepower": 25,
+                "torpedo": 31,
+                "aviation": 0,
+                "anti_air": 87,
+                "evasion": 28
             },
             "level_100": {
-                "health": "",
-                "firepower": "",
-                "torpedo": "",
-                "aviation": "",
-                "anti_air": "",
-                "evasion": ""
+                "health": 3648,
+                "firepower": 175,
+                "torpedo": 159,
+                "aviation": 0,
+                "anti_air": 521,
+                "evasion": 95
             },
             "level_120": {
-                "health": "",
-                "firepower": "",
-                "torpedo": "",
-                "aviation": "",
-                "anti_air": "",
-                "evasion": ""
+                "health": 3996,
+                "firepower": 182,
+                "torpedo": 168,
+                "aviation": 0,
+                "anti_air": 559,
+                "evasion": 109
             },
             "level_125": {
-                "health": "",
-                "firepower": "",
-                "torpedo": "",
-                "aviation": "",
-                "anti_air": "",
-                "evasion": ""
+                "health": 4082,
+                "firepower": 184,
+                "torpedo": 170,
+                "aviation": 0,
+                "anti_air": 568,
+                "evasion": 112
             }
         },
         "equipment": {
             "slot_1": {
-                "efficiency": "",
-                "equiabble": "",
-                "max": ""
+                "efficiency": "100% → 105% → 115%",
+                "equiabble": "DD Main Guns / CL Main Guns",
+                "max": "1 → 2"
             },
             "slot_2": {
-                "efficiency": "",
-                "equiabble": "",
-                "max": ""
+                "efficiency": "130% → 135% → 135%",
+                "equiabble": "Torpedoes",
+                "max": "2 → 2"
             },
             "slot_3": {
-                "efficiency": "",
-                "equiabble": "",
-                "max": ""
+                "efficiency": "150% → 170% → 185%",
+                "equiabble": "Anti-Air Guns",
+                "max": "1 → 1"
             },
             "augment": {
-                "efficiency": "",
-                "equiabble": "",
-                "max": ""
+                "efficiency": "N/A",
+                "equiabble": "Star Blaster, Crossbow, Sword",
+                "max": 1
             }
         }
     },
     {
-        "id": "6",
-        "name": "Shinano",
+        "id": 2,
+        "name": "Warspite",
         "rarity": "Ultra Rare ★★★★★★",
-        "nationality": "Sakura Empire",
-        "class": "Aircraft Carrier",
+        "nationality": "Royal Navy",
+        "type": "Battleship",
         "armor": "Heavy",
         "stat": {
             "base": {
-                "health": "1462",
-                "firepower": "0",
-                "torpedo": "0",
-                "aviation": "84",
-                "anti_air": "60",
-                "evasion": "11"
+                "health": 1298,
+                "firepower": 84,
+                "torpedo": 0,
+                "aviation": 0,
+                "anti_air": 41,
+                "evasion": 6
             },
             "level_100": {
-                "health": "7810",
-                "firepower": "0",
-                "torpedo": "0",
-                "aviation": "415",
-                "anti_air": "290",
-                "evasion": "42"
+                "health": 7285,
+                "firepower": 426,
+                "torpedo": 0,
+                "aviation": 0,
+                "anti_air": 271,
+                "evasion": 29
             },
             "level_120": {
-                "health": "8616",
-                "firepower": "0",
-                "torpedo": "0",
-                "aviation": "437",
-                "anti_air": "317",
-                "evasion": "49"
+                "health": 8023,
+                "firepower": 446,
+                "torpedo": 0,
+                "aviation": 0,
+                "anti_air": 290,
+                "evasion": 33
             },
             "level_125": {
-                "health": "8818",
-                "firepower": "0",
-                "torpedo": "0",
-                "aviation": "443",
-                "anti_air": "324",
-                "evasion": "50"
+                "health": 8208,
+                "firepower": 451,
+                "torpedo": 0,
+                "aviation": 0,
+                "anti_air": 294,
+                "evasion": 34
             }
         },
         "equipment": {
             "slot_1": {
-                "efficiency": "",
-                "equiabble": "",
-                "max": ""
+                "efficiency": "100% → 130% → 140%",
+                "equiabble": "BB Main Guns",
+                "max": "3 → 3"
             },
             "slot_2": {
-                "efficiency": "",
-                "equiabble": "",
-                "max": ""
+                "efficiency": "200% → 200% → 200%",
+                "equiabble": "DD Main Guns / CL Main Guns",
+                "max": "3 → 3"
             },
             "slot_3": {
-                "efficiency": "",
-                "equiabble": "",
-                "max": ""
+                "efficiency": "100% → 100% → 115%",
+                "equiabble": "Anti-Air Guns",
+                "max": "1 → 1"
             },
             "augment": {
-                "efficiency": "",
-                "equiabble": "",
-                "max": ""
+                "efficiency": "N/A",
+                "equiabble": "Bowgun, Officer's Sword",
+                "max": 1
             }
         }
     },
     {
-        "id": "placeholder",
-        "name": "",
-        "rarity": "",
-        "nationality": "",
-        "class": "",
-        "armor": "",
+        "id": 3,
+        "name": "Azuma",
+        "rarity": "Decisive ★★★★★★",
+        "nationality": "Sakura Empire",
+        "type": "Large Cruiser",
+        "armor": "Heavy",
         "stat": {
-            "base": {},
+            "base": {
+                "health": 1291,
+                "firepower": 58,
+                "torpedo": 0,
+                "aviation": 0,
+                "anti_air": 42,
+                "evasion": 11
+            },
             "level_100": {
-                "health": "",
-                "firepower": "",
-                "torpedo": "",
-                "aviation": "",
-                "anti_air": "",
-                "evasion": ""
+                "health": 6840,
+                "firepower": 281,
+                "torpedo": 0,
+                "aviation": 0,
+                "anti_air": 206,
+                "evasion": 44
             },
             "level_120": {
-                "health": "",
-                "firepower": "",
-                "torpedo": "",
-                "aviation": "",
-                "anti_air": "",
-                "evasion": ""
+                "health": 7541,
+                "firepower": 307,
+                "torpedo": 0,
+                "aviation": 0,
+                "anti_air": 226,
+                "evasion": 50
             },
             "level_125": {
-                "health": "",
-                "firepower": "",
-                "torpedo": "",
-                "aviation": "",
-                "anti_air": "",
-                "evasion": ""
+                "health": 7717,
+                "firepower": 314,
+                "torpedo": 0,
+                "aviation": 0,
+                "anti_air": 231,
+                "evasion": 51
             }
         },
         "equipment": {
             "slot_1": {
-                "efficiency": "",
-                "equiabble": "",
-                "max": ""
+                "efficiency": "70% → 100%",
+                "equiabble": "CA Main Guns / CB Main Guns",
+                "max": 2
             },
             "slot_2": {
-                "efficiency": "",
-                "equiabble": "",
-                "max": ""
+                "efficiency": "50% → 60%",
+                "equiabble": "DD Main Guns",
+                "max": 1
             },
             "slot_3": {
-                "efficiency": "",
-                "equiabble": "",
-                "max": ""
+                "efficiency": "100% → 110%",
+                "equiabble": "Anti-Air Guns",
+                "max": 1
             },
             "augment": {
-                "efficiency": "",
-                "equiabble": "",
-                "max": ""
+                "efficiency": "N/A",
+                "equiabble": "Lance, Greatsword",
+                "max": 1
             }
         }
+    },
+    {
+        "id": 4,
+        "name": "Friedrich der Große",
+        "rarity": "Decisive ★★★★★★",
+        "nationality": "Iron Blood",
+        "type": "Battleship",
+        "armor": "Heavy",
+        "stat": {
+            "base": {
+                "health": 1634,
+                "firepower": 87,
+                "torpedo": 0,
+                "aviation": 0,
+                "anti_air": 45,
+                "evasion": 8
+            },
+            "level_100": {
+                "health": 8941,
+                "firepower": 412,
+                "torpedo": 0,
+                "aviation": 0,
+                "anti_air": 220,
+                "evasion": 24
+            },
+            "level_120": {
+                "health": 9886,
+                "firepower": 449,
+                "torpedo": 0,
+                "aviation": 0,
+                "anti_air": 241,
+                "evasion": 27
+            },
+            "level_125": {
+                "health": 10122,
+                "firepower": 458,
+                "torpedo": 0,
+                "aviation": 0,
+                "anti_air": 246,
+                "evasion": 28
+            }
+        },
+        "equipment": {
+            "slot_1": {
+                "efficiency": "120% → 160%",
+                "equiabble": "BB Main Guns",
+                "max": 3
+            },
+            "slot_2": {
+                "efficiency": "220% → 220%",
+                "equiabble": "DD Main Guns / CL Main Guns",
+                "max": 3
+            },
+            "slot_3": {
+                "efficiency": "90% → 100%",
+                "equiabble": "Anti-Air Guns",
+                "max": 1
+            },
+            "augment": {
+                "efficiency": "N/A",
+                "equiabble": "Bowgun, Officer's Sword",
+                "max": 1
+            }
+        }
+    },
+    {
+        "id": 5,
+        "name": "Drake",
+        "rarity": "Decisive ★★★★★★",
+        "nationality": "Royal Navy",
+        "type": "Heavy Cruiser",
+        "armor": "Medium",
+        "stat": {
+            "base": {
+                "health": 970,
+                "firepower": 54,
+                "torpedo": 46,
+                "aviation": 0,
+                "anti_air": 54,
+                "evasion": 6
+            },
+            "level_100": {
+                "health": 5141,
+                "firepower": 264,
+                "torpedo": 224,
+                "aviation": 0,
+                "anti_air": 264,
+                "evasion": 66
+            },
+            "level_120": {
+                "health": 5668,
+                "firepower": 289,
+                "torpedo": 245,
+                "aviation": 0,
+                "anti_air": 289,
+                "evasion": 75
+            },
+            "level_125": {
+                "health": 5800,
+                "firepower": 295,
+                "torpedo": 250,
+                "aviation": 0,
+                "anti_air": 295,
+                "evasion": 77
+            }
+        },
+        "equipment": {
+            "slot_1": {
+                "efficiency": "100% → 130%",
+                "equiabble": "CA Main Guns",
+                "max": 2
+            },
+            "slot_2": {
+                "efficiency": "110% → 120%",
+                "equiabble": "Torpedoes",
+                "max": 1
+            },
+            "slot_3": {
+                "efficiency": "125% → 125%",
+                "equiabble": "Anti-Air Guns",
+                "max": 1
+            },
+            "augment": {
+                "efficiency": "N/A",
+                "equiabble": "Lance, Greatsword",
+                "max": 1
+            }
+        }
+    },
+    {
+        "id": 6,
+        "name": "Shinano",
+        "rarity": "Ultra Rare ★★★★★★",
+        "nationality": "Sakura Empire",
+        "type": "Aircraft Carrier",
+        "armor": "Heavy",
+        "stat": {
+            "base": {
+                "health": 1462,
+                "firepower": 0,
+                "torpedo": 0,
+                "aviation": 84,
+                "anti_air": 60,
+                "evasion": 11
+            },
+            "level_100": {
+                "health": 7810,
+                "firepower": 0,
+                "torpedo": 0,
+                "aviation": 415,
+                "anti_air": 290,
+                "evasion": 42
+            },
+            "level_120": {
+                "health": 8616,
+                "firepower": 0,
+                "torpedo": 0,
+                "aviation": 437,
+                "anti_air": 317,
+                "evasion": 49
+            },
+            "level_125": {
+                "health": 8818,
+                "firepower": 0,
+                "torpedo": 0,
+                "aviation": 443,
+                "anti_air": 324,
+                "evasion": 50
+            }
+        },
+        "equipment": {
+            "slot_1": {
+                "efficiency": "120% → 125%",
+                "equiabble": "Fighters / Dive Bombers(LB1) / Torpedo Bombers(LB1)",
+                "max": 2
+            },
+            "slot_2": {
+                "efficiency": "120% → 130%",
+                "equiabble": "Dive Bombers",
+                "max": 3
+            },
+            "slot_3": {
+                "efficiency": "125% → 140%",
+                "equiabble": "Torpedo Bombers",
+                "max": 4
+            },
+            "augment": {
+                "efficiency": "N/A",
+                "equiabble": "Scepter, Hunting Bow",
+                "max": 1
+            }
+        }
+    },
+    {
+        "id": 7,
+        "name": "New Jersey",
+        "rarity": "Ultra Rare ★★★★★★",
+        "nationality": "Eagle Union",
+        "type": "Battleship",
+        "armor": "Heavy",
+        "stat": {
+            "base": {
+                "health": 1594,
+                "firepower": 87,
+                "torpedo": 0,
+                "aviation": 0,
+                "anti_air": 84,
+                "evasion": 9
+            },
+            "level_100": {
+                "health": 8619,
+                "firepower": 426,
+                "torpedo": 0,
+                "aviation": 0,
+                "anti_air": 394,
+                "evasion": 34
+            },
+            "level_120": {
+                "health": 9520,
+                "firepower": 447,
+                "torpedo": 0,
+                "aviation": 0,
+                "anti_air": 430,
+                "evasion": 39
+            },
+            "level_125": {
+                "health": 9745,
+                "firepower": 453,
+                "torpedo": 0,
+                "aviation": 0,
+                "anti_air": 438,
+                "evasion": 40
+            }
+        },
+        "equipment": {
+            "slot_1": {
+                "efficiency": "120% → 150%",
+                "equiabble": "BB Main Guns",
+                "max": 3
+            },
+            "slot_2": {
+                "efficiency": "210% → 210%",
+                "equiabble": "DD Main Guns",
+                "max": 3
+            },
+            "slot_3": {
+                "efficiency": "130% → 130%",
+                "equiabble": "Anti-Air Guns",
+                "max": 1
+            },
+            "augment": {
+                "efficiency": "N/A",
+                "equiabble": "Bowgun, Officer's Sword",
+                "max": 1
+            }
+        }
+    },
+    {
+        "id": 8,
+        "name": "Ägir",
+        "rarity": "Decisive ★★★★★★",
+        "nationality": "Iron Blood",
+        "type": "Large Cruiser",
+        "armor": "Heavy",
+        "stat": {
+            "base": {
+                "health": 1385,
+                "firepower": 53,
+                "torpedo": 38,
+                "aviation": 0,
+                "anti_air": 47,
+                "evasion": 12
+            },
+            "level_100": {
+                "health": 7161,
+                "firepower": 258,
+                "torpedo": 184,
+                "aviation": 0,
+                "anti_air": 230,
+                "evasion": 46
+            },
+            "level_120": {
+                "health": 7877,
+                "firepower": 282,
+                "torpedo": 202,
+                "aviation": 0,
+                "anti_air": 252,
+                "evasion": 52
+            },
+            "level_125": {
+                "health": 8056,
+                "firepower": 288,
+                "torpedo": 206,
+                "aviation": 0,
+                "anti_air": 257,
+                "evasion": 53
+            }
+        },
+        "equipment": {
+            "slot_1": {
+                "efficiency": "90% → 120%",
+                "equiabble": "CA Main Guns / CB Main Guns",
+                "max": 2
+            },
+            "slot_2": {
+                "efficiency": "100% → 110%",
+                "equiabble": "Torpedoes",
+                "max": 1
+            },
+            "slot_3": {
+                "efficiency": "100% → 110%",
+                "equiabble": "Anti-Air Guns",
+                "max": 1
+            },
+            "augment": {
+                "efficiency": "N/A",
+                "equiabble": "Lance, Greatsword",
+                "max": 1
+            }
+        }
+    },
+    {
+        "id": 9,
+        "name": "Hakuryuu",
+        "rarity": "Decisive ★★★★★★",
+        "nationality": "Sakura Empire",
+        "type": "Aircraft Carrier",
+        "armor": "Heavy",
+        "stat": {
+            "base": {
+                "health": 1417,
+                "firepower": 0,
+                "torpedo": 0,
+                "aviation": 88,
+                "anti_air": 64,
+                "evasion": 14
+            },
+            "level_100": {
+                "health": 7572,
+                "firepower": 0,
+                "torpedo": 0,
+                "aviation": 415,
+                "anti_air": 295,
+                "evasion": 50
+            },
+            "level_120": {
+                "health": 8354,
+                "firepower": 0,
+                "torpedo": 0,
+                "aviation": 453,
+                "anti_air": 323,
+                "evasion": 57
+            },
+            "level_125": {
+                "health": 8549,
+                "firepower": 0,
+                "torpedo": 0,
+                "aviation": 462,
+                "anti_air": 330,
+                "evasion": 59
+            }
+        },
+        "equipment": {
+            "slot_1": {
+                "efficiency": "110% → 125%",
+                "equiabble": "Fighters / Torpedo Bombers (Dev.10)",
+                "max": 3
+            },
+            "slot_2": {
+                "efficiency": "125% → 150%",
+                "equiabble": "Dive Bombers",
+                "max": 4
+            },
+            "slot_3": {
+                "efficiency": "120% → 130%",
+                "equiabble": "Torpedo Bombers / Dive Bombers (Dev.30)",
+                "max": 2
+            },
+            "augment": {
+                "efficiency": "N/A",
+                "equiabble": "Scepter, Hunting Bow",
+                "max": 1
+            }
+        }
+    },
+    {
+        "id": 10,
+        "name": "Shimakaze",
+        "rarity": "Ultra Rare ★★★★★★",
+        "nationality": "Sakura Empire",
+        "type": "Destroyer",
+        "armor": "Light",
+        "stat": {
+            "base": {
+                "health": 381,
+                "firepower": 14,
+                "torpedo": 116,
+                "aviation": 0,
+                "anti_air": 30,
+                "evasion": 86
+            },
+            "level_100": {
+                "health": 2132,
+                "firepower": 72,
+                "torpedo": 572,
+                "aviation": 0,
+                "anti_air": 147,
+                "evasion": 252
+            },
+            "level_120": {
+                "health": 2362,
+                "firepower": 76,
+                "torpedo": 602,
+                "aviation": 0,
+                "anti_air": 161,
+                "evasion": 285
+            },
+            "level_125": {
+                "health": 2420,
+                "firepower": 77,
+                "torpedo": 609,
+                "aviation": 0,
+                "anti_air": 228,
+                "evasion": 293
+            }
+        },
+        "equipment": {
+            "slot_1": {
+                "efficiency": "80% → 85%",
+                "equiabble": "DD Main Guns",
+                "max": 1
+            },
+            "slot_2": {
+                "efficiency": "150% → 170%",
+                "equiabble": "Torpedoes",
+                "max": 2
+            },
+            "slot_3": {
+                "efficiency": "85% → 90%",
+                "equiabble": "Anti-Air Guns",
+                "max": 1
+            },
+            "augment": {
+                "efficiency": "N/A",
+                "equiabble": "Hammer, Dual Swords",
+                "max": 1
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "Yuudachi"
+    },
+    {
+        "id": 12,
+        "name": "Ulrich von Hutten"
+    },
+    {
+        "id": 13,
+        "name": "Kronshtadt"
+    },
+    {
+        "id": 14,
+        "name": "Vanguard"
+    },
+    {
+        "id": 15,
+        "name": "Brest"
+    },
+    {
+        "id": 16,
+        "name": "Plymouth"
+    },
+    {
+        "id": 17,
+        "name": "Musashi"
+    },
+    {
+        "id": 18,
+        "name": "Yorktown II"
+    },
+    {
+        "id": 19,
+        "name": "Implacable"
+    },
+    {
+        "id": 20,
+        "name": "Bismarck Zwei"
+    },
+    {
+        "id": 21,
+        "name": "Hindenburg"
+    },
+    {
+        "id": 22,
+        "name": "Kearsarge"
+    },
+    {
+        "id": 23,
+        "name": "Unzen"
+    },
+    {
+        "id": 24,
+        "name": "Guam"
+    },
+    {
+        "id": 25,
+        "name": "Laffey II"
+    },
+    {
+        "id": 26,
+        "name": "Sovetsky Soyuz"
+    },
+    {
+        "id": 27,
+        "name": "Alsace"
+    },
+    {
+        "id": 28,
+        "name": "Mogador"
+    },
+    {
+        "id": 29,
+        "name": "Admiral Nakhimov"
+    },
+    {
+        "id": 30,
+        "name": "Napoli"
+    },
+    {
+        "id": 31,
+        "name": "Elridge"
+    },
+    {
+        "id": 32,
+        "name": "Amagi(CV)"
     }
 ]
