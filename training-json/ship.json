@@ -1,129 +1,196 @@
 [
     {
         "id": "1",
-        "name": "Shinano",
+        "name": "San Diego",
         "rarity": "Ultra Rare ★★★★★★",
-        "nationality": "Sakura Empire",
-        "class": "Aircraft Carrier",
-        "armor-type": "Heavy",
-        "stat": {
-            "base": {
-                "health-point": "1462",
-                "firepower": "0",
-                "torpedo": "0",
-                "aviation": "84",
-                "anti-air": "60",
-                "evasion": "11"
-            },
-            "level-100": {
-                "health-point": "7810",
-                "firepower": "0",
-                "torpedo": "0",
-                "aviation": "415",
-                "anti-air": "290",
-                "evasion": "42"
-            },
-            "level-120": {
-                "health-point": "8616",
-                "firepower": "0",
-                "torpedo": "0",
-                "aviation": "437",
-                "anti-air": "317",
-                "evasion": "49"
-            },
-            "level-125": {
-                "health-point": "8818",
-                "firepower": "0",
-                "torpedo": "0",
-                "aviation": "443",
-                "anti-air": "324",
-                "evasion": "50"
-            }
-        },
-        "equiabble": {
-            "slot-1": {
-                "efficiency": "",
-                "equiabble": "",
-                "max-#": ""
-            },
-            "slot-2": {
-                "efficiency": "",
-                "equiabble": "",
-                "max-#": ""
-            },
-            "slot-3": {
-                "efficiency": "",
-                "equiabble": "",
-                "max-#": ""
-            },
-            "augment": {
-                "efficiency": "",
-                "equiabble": "",
-                "max-#": ""
-            }
-        }
+        "nationality": "Eagle Union",
+        "class": "Light Cruiser",
+        "armor": "light",
+        "stat": {},
+        "equipment": {}
     },
     {
-        "id": "2",
+        "id": "5",
         "name": "Drake",
         "rarity": "Decisive ★★★★★★",
         "nationality": "Roval Navy",
         "class": "Light Cruiser",
-        "armor-type": "Medium",
+        "armor": "Medium",
         "stat": {
             "base": {
-                "health-point": "",
+                "health": "",
                 "firepower": "",
                 "torpedo": "",
                 "aviation": "",
-                "anti-air": "",
+                "anti_air": "",
                 "evasion": ""
             },
-            "level-100": {
-                "health-point": "",
+            "level_100": {
+                "health": "",
                 "firepower": "",
                 "torpedo": "",
                 "aviation": "",
-                "anti-air": "",
+                "anti_air": "",
                 "evasion": ""
             },
-            "level-120": {
-                "health-point": "",
+            "level_120": {
+                "health": "",
                 "firepower": "",
                 "torpedo": "",
                 "aviation": "",
-                "anti-air": "",
+                "anti_air": "",
                 "evasion": ""
             },
-            "level-125": {
-                "health-point": "",
+            "level_125": {
+                "health": "",
                 "firepower": "",
                 "torpedo": "",
                 "aviation": "",
-                "anti-air": "",
+                "anti_air": "",
                 "evasion": ""
             }
         },
-        "equiabble": {
-            "slot-1": {
+        "equipment": {
+            "slot_1": {
                 "efficiency": "",
                 "equiabble": "",
-                "max-#": ""
+                "max": ""
             },
-            "slot-2": {
+            "slot_2": {
                 "efficiency": "",
                 "equiabble": "",
-                "max-#": ""
+                "max": ""
             },
-            "slot-3": {
+            "slot_3": {
                 "efficiency": "",
                 "equiabble": "",
-                "max-#": ""
+                "max": ""
             },
             "augment": {
                 "efficiency": "",
                 "equiabble": "",
-                "max-#": ""
+                "max": ""
+            }
+        }
+    },
+    {
+        "id": "6",
+        "name": "Shinano",
+        "rarity": "Ultra Rare ★★★★★★",
+        "nationality": "Sakura Empire",
+        "class": "Aircraft Carrier",
+        "armor": "Heavy",
+        "stat": {
+            "base": {
+                "health": "1462",
+                "firepower": "0",
+                "torpedo": "0",
+                "aviation": "84",
+                "anti_air": "60",
+                "evasion": "11"
+            },
+            "level_100": {
+                "health": "7810",
+                "firepower": "0",
+                "torpedo": "0",
+                "aviation": "415",
+                "anti_air": "290",
+                "evasion": "42"
+            },
+            "level_120": {
+                "health": "8616",
+                "firepower": "0",
+                "torpedo": "0",
+                "aviation": "437",
+                "anti_air": "317",
+                "evasion": "49"
+            },
+            "level_125": {
+                "health": "8818",
+                "firepower": "0",
+                "torpedo": "0",
+                "aviation": "443",
+                "anti_air": "324",
+                "evasion": "50"
+            }
+        },
+        "equipment": {
+            "slot_1": {
+                "efficiency": "",
+                "equiabble": "",
+                "max": ""
+            },
+            "slot_2": {
+                "efficiency": "",
+                "equiabble": "",
+                "max": ""
+            },
+            "slot_3": {
+                "efficiency": "",
+                "equiabble": "",
+                "max": ""
+            },
+            "augment": {
+                "efficiency": "",
+                "equiabble": "",
+                "max": ""
+            }
+        }
+    },
+    {
+        "id": "placeholder",
+        "name": "",
+        "rarity": "",
+        "nationality": "",
+        "class": "",
+        "armor": "",
+        "stat": {
+            "base": {},
+            "level_100": {
+                "health": "",
+                "firepower": "",
+                "torpedo": "",
+                "aviation": "",
+                "anti_air": "",
+                "evasion": ""
+            },
+            "level_120": {
+                "health": "",
+                "firepower": "",
+                "torpedo": "",
+                "aviation": "",
+                "anti_air": "",
+                "evasion": ""
+            },
+            "level_125": {
+                "health": "",
+                "firepower": "",
+                "torpedo": "",
+                "aviation": "",
+                "anti_air": "",
+                "evasion": ""
+            }
+        },
+        "equipment": {
+            "slot_1": {
+                "efficiency": "",
+                "equiabble": "",
+                "max": ""
+            },
+            "slot_2": {
+                "efficiency": "",
+                "equiabble": "",
+                "max": ""
+            },
+            "slot_3": {
+                "efficiency": "",
+                "equiabble": "",
+                "max": ""
+            },
+            "augment": {
+                "efficiency": "",
+                "equiabble": "",
+                "max": ""
             }
         }
     }
